@@ -26,3 +26,6 @@ module.id: contains the absolute URL of the component class module file. With th
 Nesting:
     Directives
     @Input to get property from other files
+
+Service
+    In Component call: constructor(private _productService: ProductService) {}
