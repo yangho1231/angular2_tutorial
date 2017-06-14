@@ -22,3 +22,7 @@ Custom Pipe
     IProduct[] -> Return type
 
 module.id: contains the absolute URL of the component class module file. With this you don't have to specify abosulte URL just the path you are in.
+
+Nesting:
+    Directives
+    @Input to get property from other files
