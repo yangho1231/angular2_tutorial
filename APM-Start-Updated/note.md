@@ -29,3 +29,10 @@ Nesting:
 
 Service
     In Component call: constructor(private _productService: ProductService) {}
+
+Guards
+    Protecting page
+    CanActivate: guard navigation to a route
+    CanDeactivate: guard navigation from a route
+    Resolve: pre-fetch data before activating a route
+    CanLoad: Prevent asynchronus routing
